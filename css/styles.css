@@ -1,11 +1,54 @@
-/* fonts */
-/* 
-    font-family: 'Cinzel', serif;
-    font-family: 'PT Serif', serif;
-*/
+:root {
+  --title-font: 'Cinzel', serif;
+  --subtitle-font: 'PT Serif', serif;
+
+  --clr-title-body: #414141;
+  --clr-subtitle: #7D7D7D;
+  --clr-links: #CA5E10;
+}
+
+body {
+  color: var(--clr-title-body);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-weight: 900;
+  font-size: 6rem;
+  text-align: center;
+  width: 90%;
+  margin: 8% auto 2%;
+  line-height: 0.8;
+  color: var(--clr-title-body);
+}
+
+
+
+.subtitle {
+  font-family: var(--subtitle-font);
+  font-weight: 400;
+  font-size: 2.25rem;
+  width: 60%;
+  margin: 0 auto 6%;
+  text-align: center;
+  color: var(--clr-subtitle);
+
+}
+
+
 
 .container {
   width: 90%;
   max-width: 39rem;
   margin: 0 auto;
+}
+
+.lead {
+  font-size: 1.3125rem;
+}
+
+a {
+  color: var(--clr-links);
 }
